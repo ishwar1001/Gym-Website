@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lengend Fitness Centre</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/index.css">
+<style>
+    body{
+        height: 2000px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('bg.jpg');
+        background-size: 100%;
+        
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+       top: 20px;
+        /* border: 2px solid rgb(204, 109, 54); */
+        
+
+    }
+    .left img{
+        height: 90px;
+        width: 115px;
+    }
+    .mid{
+        display: block;
+        width: 800px;
+        margin: 35px auto;
+        /* border: 2px solid rgb(204, 109, 54); */
+
+    }
+    .right{
+        position: absolute;
+        right: 30px;
+       top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(204, 109, 54); */
+
+    }
+    .right input{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        border: 2px solid rgb(116, 112, 109);
+        border-radius: 5px;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        
+        
+    }
+    .navbar li{
+        
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 30px 25px;
+
+    }
+    .navbar li a:hover, .navbar li a.active{
+        /* text-decoration:overline; */
+        color: rgb(204, 109, 54);
+    }
+    .container1{
+        margin: 70px 30px;
+        padding: 60px 70px;
+        /* border: 2px solid white; */
+        text-align: end;
+        font-size: 50px;
+        
+
+    }
+    .container2 {
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+    /* border: 2px solid white; */
+        margin: 61px 30px;
+        padding: 90px 100px;
+    text-align: end;
+    font-size: 40px;
+}
+.btn{
+    
+    margin: 30px 1px;
+    padding: 3px 24px;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.formG input{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    
+    display: block;
+    width: 232px;
+    margin: 20px 0px;
+    padding: 0px 17px;
+
+    
+    
+}
+.container1 p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            
+            
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a> </li>
+                <li><a href="#">FITNESS CALCULATOR</a> </li>
+                <li><a href="#">ABOUT US</a> </li>
+                <li><a href="#">JOIN NOW</a> </li>
+                
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        
+        </div>
+        <div class="right search">
+            <input type="text" name="search" id="search" placeholder="Search anything">
+
+        </div>
+    </header>
+    <div class="container1">
+        <h2>Train From the Best</h2>
+        <p>To be the best you have to be the best
+            
+        </p>
+    </div>
+    <div class="container2">
+        <h1>Join Now</h1>
+        <form action="noaction.php">
+            <div class="formG">
+                <input type="text" placeholder="Enter Name">
+            </div>
+            <div class="formG">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="formG">
+                <input type="text" placeholder="Password">
+            </div>
+            <div class="formG">
+                <input type="text" placeholder="Date of Birth">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
